@@ -120,3 +120,10 @@ from ```LoadBalancer``` to ```NodePort``` @ ```helm/values.yaml``` file
 
 
 ![06](./12_k8s.png "06")
+
+# Enable AutoSync
+- modify sync policy
+![13](./13_k8s.png "13")
+- modify git repo and wait for a while
+- check the sync status
+![14](./14_k8s.png "14")
